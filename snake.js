@@ -76,7 +76,7 @@ class Snake {
     //translate(this.pos.x, this.pos.y);
     //rotate(this.vel.heading());
     //circle(-this.r, -this.r/2, this.r*2);
-    circle(pos.x, pos.y, i/25);
+    rect(pos.x, pos.y, i/25);
 
     pop();
       }
